@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ActitimeHeader {
 
+	// New canges//
 	@FindBy (xpath = "//a[@class='content users']") 
 	private  WebElement user ;
 	
