@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Suite]" duration-ms="33141" started-at="2022-01-31T09:40:47 IST" finished-at="2022-01-31T09:41:20 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest(failed)" duration-ms="13169" started-at="2022-01-31T09:40:47 IST" finished-at="2022-01-31T09:41:00 IST">
+      <class name="test.VeryActitimeHeaders">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="launchBrowser" is-config="true" duration-ms="6104" started-at="2022-01-31T09:40:47 IST" finished-at="2022-01-31T09:40:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="initializePomClasses()[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="initializePomClasses" is-config="true" duration-ms="136" started-at="2022-01-31T09:40:53 IST" finished-at="2022-01-31T09:40:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePomClasses -->
+        <test-method status="PASS" signature="loginActiTime()[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="loginActiTime" is-config="true" duration-ms="1874" started-at="2022-01-31T09:40:53 IST" finished-at="2022-01-31T09:40:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginActiTime -->
+        <test-method status="PASS" signature="toVerityUserTab()[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="toVerityUserTab" duration-ms="2763" started-at="2022-01-31T09:40:55 IST" finished-at="2022-01-31T09:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerityUserTab -->
+        <test-method status="PASS" signature="logoutFromActimie()[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="logoutFromActimie" is-config="true" duration-ms="302" started-at="2022-01-31T09:40:58 IST" finished-at="2022-01-31T09:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActimie -->
+        <test-method status="PASS" signature="clearObjects()[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="clearObjects" is-config="true" duration-ms="0" started-at="2022-01-31T09:40:58 IST" finished-at="2022-01-31T09:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method status="PASS" signature="closedBrowser()[pri:0, instance:test.VeryActitimeHeaders@23faf8f2]" name="closedBrowser" is-config="true" duration-ms="1851" started-at="2022-01-31T09:40:58 IST" finished-at="2022-01-31T09:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- test.VeryActitimeHeaders -->
+    </test> <!-- ChromeTest(failed) -->
+    <test name="FirefoxTest(failed)" duration-ms="19921" started-at="2022-01-31T09:41:00 IST" finished-at="2022-01-31T09:41:20 IST">
+      <class name="test.VeryActitimeHeaders">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="launchBrowser" is-config="true" duration-ms="10653" started-at="2022-01-31T09:41:00 IST" finished-at="2022-01-31T09:41:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="initializePomClasses()[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="initializePomClasses" is-config="true" duration-ms="4" started-at="2022-01-31T09:41:11 IST" finished-at="2022-01-31T09:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePomClasses -->
+        <test-method status="PASS" signature="loginActiTime()[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="loginActiTime" is-config="true" duration-ms="3988" started-at="2022-01-31T09:41:11 IST" finished-at="2022-01-31T09:41:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginActiTime -->
+        <test-method status="PASS" signature="toVerityUserTab()[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="toVerityUserTab" duration-ms="755" started-at="2022-01-31T09:41:15 IST" finished-at="2022-01-31T09:41:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerityUserTab -->
+        <test-method status="PASS" signature="logoutFromActimie()[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="logoutFromActimie" is-config="true" duration-ms="384" started-at="2022-01-31T09:41:15 IST" finished-at="2022-01-31T09:41:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActimie -->
+        <test-method status="PASS" signature="clearObjects()[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="clearObjects" is-config="true" duration-ms="1" started-at="2022-01-31T09:41:16 IST" finished-at="2022-01-31T09:41:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method status="PASS" signature="closedBrowser()[pri:0, instance:test.VeryActitimeHeaders@1877ab81]" name="closedBrowser" is-config="true" duration-ms="4127" started-at="2022-01-31T09:41:16 IST" finished-at="2022-01-31T09:41:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- test.VeryActitimeHeaders -->
+    </test> <!-- FirefoxTest(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
